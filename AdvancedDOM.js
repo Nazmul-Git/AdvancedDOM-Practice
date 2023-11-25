@@ -26,3 +26,9 @@ document.querySelector('.btn').addEventListener('click', ()=>{
 newElement.style.backgroundColor='green';
 newElement.style.width='120%';
 
+console.log(newElement.style.color); // no output
+console.log(newElement.style.backgroundColor); // green
+
+// attribute
+console.log(document.querySelector('.img').getAttribute('src')); //image/img.jpg
+
